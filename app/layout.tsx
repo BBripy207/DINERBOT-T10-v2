@@ -2,20 +2,20 @@ import type { Metadata } from 'next'
 import { Providers } from './providers'
 
 export const metadata: Metadata = {
-  title: 'DINERBOT T10 - v2',
-  description: 'Presentación del robot DINERBOT T10',
+    title: 'DINERBOT T10 - v2',
+    description: 'Presentación del robot DINERBOT T10',
 }
 
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode
+    children: React.ReactNode
 }) {
-  return (
-    <html lang="es">
-      <body>
-        <Providers>{children}</Providers>
-      </body>
-    </html>
-  )
+    return (
+        <html lang="es">
+            <body>
+                <Providers>{children}</Providers>
+            </body>
+        </html>
+    )
 }
