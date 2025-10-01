@@ -1,5 +1,38 @@
-# Object file
-*.o
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
 
-# Ada Library Information
-*.ali
+# Production
+/build
+/.next/
+/out/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Environment variables
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
